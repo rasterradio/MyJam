@@ -5,17 +5,27 @@ using UnityEngine.UI;
 
 public class printPlayerState : MonoBehaviour {
 
-    public Text playerState;
-    string state;
+	static string playerState;
+
+    /*public Text state;
+    public string playerState;
 
 	// Use this for initialization
 	void Start () {
-        playerState = GetComponent<State>();
+		state = GetComponent<Text>();
+        //playerState = GetComponent<State>();
 		
 	}
 	
 	// Update is called once per frame
 	void Update () {
+		state.text = playerState;
 		
-	}
+	}*/
+
+	void OnGUI()
+    {
+        GUI.Label(new Rect (0, 0, 100, 100), playerState);
+    }
+	//Debug.Log(playerState);
 }

@@ -529,15 +529,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b2dd73eaf5e585459669038983e7590, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myInputManager: {fileID: 148028521}
-  jumpButton: 2
+  myInputManager: {fileID: 0}
+  jumpButton: 0
   myAnimator: {fileID: 0}
   facingRight: 1
   jump: 0
   moveForce: 365
   maxSpeed: 5
   jumpClips: []
-  normalJumpForce: 700
+  normalJumpForce: 1500
 --- !u!114 &148028521
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1722,6 +1722,7 @@ GameObject:
   - component: {fileID: 1449122409}
   - component: {fileID: 1449122408}
   - component: {fileID: 1449122407}
+  - component: {fileID: 1449122410}
   m_Layer: 9
   m_Name: PlayerState
   m_TagString: Untagged
@@ -1805,6 +1806,17 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!114 &1449122410
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1449122405}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2343b7cdf3866634e8e277b0ad7d756a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1725884839
 GameObject:
   m_ObjectHideFlags: 0

@@ -1,5 +1,5 @@
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{01B606D8-5F9A-879C-67E6-679621EDDA0A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{318A6876-0EAE-32CC-6264-D1178D76DD8D}"
@@ -18,5 +18,8 @@ Global
 		{318A6876-0EAE-32CC-6264-D1178D76DD8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{318A6876-0EAE-32CC-6264-D1178D76DD8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{318A6876-0EAE-32CC-6264-D1178D76DD8D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
 	EndGlobalSection
 EndGlobal
