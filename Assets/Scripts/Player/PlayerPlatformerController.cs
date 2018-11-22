@@ -115,7 +115,7 @@ public class PlayerPlatformerController : PhysicsObject
 
         if (Input.GetKeyDown(KeyCode.Space) && grounded)
         {
-            velocity.y = jumpTakeOffSpeed;
+            //velocity.y = jumpTakeOffSpeed;
         }
         else if (Input.GetKeyUp(KeyCode.Space))
         {
